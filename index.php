@@ -94,12 +94,12 @@ require "layouts/header.php";
 			</div>
 		</div>
 		<script>
-			function showBanner {
-				document.getElementById("banner").style.visibility="visible";
-			}
-			function hideBanner {
-				document.getElementById("banner").style.visibility="hidden";
-			}
+			function showBanner() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+			function hideBanner() {
+    document.getElementById("myDropdown").classList.remove("show");
+}
 		</script>	
 		<div class="stuck_right">
 			<button title="Back To Top" class="button" onclick="scrollToTop(1000);">
