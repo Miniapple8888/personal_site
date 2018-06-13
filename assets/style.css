@@ -8,7 +8,7 @@
 	width: 200px;
 	padding: 10px;
 	position: absolute;
-	display: none;
+	visibility: hidden;
 	background-image: -webkit-gradient(linear, left top, right bottom, from(red), to(darkred));
 	background-image: -webkit-linear-gradient(top left, red, darkred);
 	background-image: -o-linear-gradient(top left, red, darkred);
@@ -50,25 +50,6 @@
     overflow: visible;
     display: inline-block;
     z-index: 50 !important;
-}
-.banner-box:hover .banner { 
-    -webkit-animation: FadeIn 0.35s ease-out forwards;
-    animation: FadeIn 0.35s ease-out forwards;
-    -webkit-animation-iteration-count: 1;
-    animation-iteration-count: 1;
-}
-
-@-webkit-keyframes FadeIn {
-    from {
-        opacity: 0
-    }
-
-    to {
-        opacity: 1;
-    }
-}
-.banner-box:hover .banner {
-    display: block;
 }
 /*grid*/
 .social-media-box {
