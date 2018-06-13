@@ -95,10 +95,10 @@ require "layouts/header.php";
 		</div>
 		<script>
 			function showBanner() {
-    document.getElementById("myDropdown").classList.toggle("show");
+    document.getElementById("banner").classList.toggle("show");
 }
 			function hideBanner() {
-    document.getElementById("myDropdown").classList.remove("show");
+    document.getElementById("banner").classList.remove("show");
 }
 		</script>	
 		<div class="stuck_right">
