@@ -112,6 +112,19 @@ iframe {
 .email {
 	font-weight: 500;
 	font-style: italic;
+	color: #000080;
+	text-decoration: none;
+	border-bottom: #000080 solid 1px;
+}
+.email:hover {
+	border-bottom: none;
+	color: red;
+	text-decoration: none;
+}
+.email:visited {
+	color: purple;
+	border-bottom: none;
+	text-decoration: none;
 }
 .info-icon {
 	height: 61px;
@@ -177,6 +190,11 @@ iframe {
 	color: red;
 	text-decoration: none;
 	border: none;
+}
+.text-link:visited {
+	color: purple;
+	border-bottom: none;
+	text-decoration: none;
 }
 .container-sm-pad {
 	padding-right: 20px;
@@ -461,7 +479,7 @@ footer {
 .dropdown-content {
     border-top: solid 2px blue;
 	background-color: rgba(230,230,230,0.8);
-	opacity: 0;
+	visibility: hidden;
 }
 .dropdown-content a {
     color: black;
@@ -479,21 +497,21 @@ footer {
 } 
 @-webkit-keyframes showDropdown {
 	from {
-		opacity: 0;
+		visibility: hidden;
 		left: -250px;
 	}
 	to {
-		opacity: 1;
+		visbility: shown;
 		left: 0px;
 	}
 } 
 @keyframes showDropdown {
 	from {
-		opacity: 0;
+		visibility: hidden;
 		left: -250px;
 	}
 	to {
-		opacity: 1;
+		visbility: shown;
 		left: 0px;
 	}
 }
