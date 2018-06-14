@@ -82,25 +82,6 @@ require "layouts/header.php";
 		<div class="social-media-box">
 			<img class="assets/computer.png" />
 		</div>-->
-		<div class="stuck_left">
-			<div class="banner-box">
-				<button onclick="showBanner('banner')" onblur="hideBanner('banner')" id="banner-btn">?</button>
-					<div id="banner" class="banner">
-						<p>
-						Having Trouble? Contact me at <span class="email">j.alfahad@gmail</span>. Please remember that this is still an unfinished
-						site, so there may be problems. Thanks!
-						</p>
-					</div>
-			</div>
-		</div>
-		<script>
-			function showBanner() {
-    document.getElementById("banner").classList.toggle("show");
-}
-			function hideBanner() {
-    document.getElementById("banner").classList.remove("show");
-}
-		</script>	
 		<div class="stuck_right">
 			<button title="Back To Top" class="button" onclick="scrollToTop(1000);">
 				&#9651;
