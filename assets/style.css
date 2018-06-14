@@ -335,7 +335,6 @@ footer {
     padding-top: 10px;
 	width: 100%;
     white-space: nowrap;
-    border-top: solid 4px #a9a9a9;
 	padding-bottom: 5px;
     border-left: double #fff 4px;
 }
@@ -346,7 +345,6 @@ footer {
     padding-top: 10px;
 	width: 100%;
     white-space: nowrap;
-    border-top: solid 4px #a9a9a9;
     border-left: double #a9a9a9 4px;
 	padding-bottom: 5px;
 }
