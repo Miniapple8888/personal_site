@@ -16,9 +16,9 @@ require "layouts/header.php";
 					<h3 class="post-title">Un peu sur moi:</h3>
 					<br>
 					<p>
-					&emsp;All&ocirc;! Mon nom est Jacob est je suis une d&eaigu;v&eaigu;lopeur et styliste web amateur! M&ecirc;me si
-          je n'ai pas beaucoup de projets, j'esp&egrave;re avoir plus de temps pendant l'&eaigu;t&eaigu; pour augmenter mes
-          connaissances. Vous pouvez trouv&eaigu; mon premier projet au:
+					&emsp;All&ocirc;! Mon nom est Jacob est je suis une d&eacute;v&eacute;lopeur et styliste web amateur! M&ecirc;me si
+          je n'ai pas beaucoup de projets, j'esp&egrave;re avoir plus de temps pendant l'&eacute;t&eacute; pour augmenter mes
+          connaissances. Vous pouvez trouv&eacute; mon premier projet au:
 					</p>
 					<br>
 					&emsp;<a target="_blank" href="http://www.crhsrobotics.com/2018/"class="text-link">Robotique Centennial Site Officielle</a>
@@ -50,9 +50,9 @@ require "layouts/header.php";
 					class="email">j.alfahad@gmail.com</a> si vous avez une question. 
 					</p>
 					<div class="warning-box">
-						&emsp;<h5>S'il vous pla&icirc;t noter</h5> <p>que la contenu sur mon site web peut &ecirc;tre pas compl&eaigu;tement
-            termin&eaigu;. &Agrave; cause de cela, il pourrait y avoir des images ou liens bris&eaigu;s sur le site. 
-            Merci pour votre compr&eaigu;hension.
+						&emsp;<h5>S'il vous pla&icirc;t noter</h5> <p>que la contenu sur mon site web peut &ecirc;tre pas compl&eacute;tement
+            termin&eacute;. &Agrave; cause de cela, il pourrait y avoir des images ou liens bris&eacute;s sur le site. 
+            Merci pour votre compr&eacute;hension.
 						</p>
 					</div>
 				</div>
