@@ -479,7 +479,7 @@ footer {
 .dropdown-content {
     border-top: solid 2px blue;
 	background-color: rgba(230,230,230,0.8);
-	visibility: hidden;
+	display: none;
 }
 .dropdown-content a {
     color: black;
@@ -492,27 +492,28 @@ footer {
 	background-color: white;
 }
 .dropdown:hover .dropdown-content {
+    display: block;
 	animation: showDropdown ease-in 0.4s forwards;
 		-webkit-animation: showDropdown ease-in 0.4s forwards;
 } 
 @-webkit-keyframes showDropdown {
 	from {
-		visibility: hidden;
-		left: -250px;
+		left: -350px;
+		opacity: 0;
 	}
 	to {
-		visbility: shown;
 		left: 0px;
+		opacity: 1;
 	}
 } 
 @keyframes showDropdown {
 	from {
-		visibility: hidden;
-		left: -250px;
+		left: -350px;
+		opacity: 0;
 	}
 	to {
-		visbility: shown;
 		left: 0px;
+		opacity: 1;
 	}
 }
 .front {
