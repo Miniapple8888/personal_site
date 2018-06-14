@@ -25,9 +25,10 @@
 			</div>
 			<div class="foot-sect col-12 col-lg-3 col-md-6 col-sm-12">
 				<div class="foot-div">
-					<h5 class="foot-subt">Contact</h5>
+					<h5 class="foot-subt">Other</h5>
 				</div>
 				<a class="foot-link" href="contact.php">Contact Me</a>
+				<a class="foot-link" href="indexfr.php">Fran&ccedil;ais</a>
 			</div>
 		</div>
 		</footer>

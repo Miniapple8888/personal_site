@@ -25,38 +25,18 @@
 			        <li class="nav-item">
 			            <a title="Home" class="nav-link" id="navlink" href="index.php">Home</a>
 			        </li>
-			        <script type="text/javascript">
-					function showDropdown() {
-						document.getElementById("dropdown").classList.toggle("show");
-					}
-
-					// Close the dropdown if the user clicks outside of it
-					window.onclick = function(event) {
-					  if (!event.target.matches('#dropbtn')) {
-
-						var dropdowns = document.getElementsByClassName("dropdown-content");
-						var i;
-						for (i = 0; i < dropdowns.length; i++) {
-						  var openDropdown = dropdowns[i];
-						  if (openDropdown.classList.contains('show')) {
-							openDropdown.classList.remove('show');
-						  }
-						}
-					  }
-					}
-					</script>
-				    <li class="nav-item">
+				<li class="nav-item">
+					<div class="dropdown">
 						<button title="Skills" class="nav-link" onclick="showDropdown('dropdown-content')" onblur="hideDropdown('dropdown-content')" id="dropbtn">Skills</button>
-						    <div id="dropdown" class="dropdown-content drop_1">
-                                <a class="a link" id="a" href="skills.php">HTML</a>
-                                <a class="b link" id="b" href="skills.php#css">CSS</a>
-                                <a class="c link" id="c" href="skills.php#animations">Animations (CSS 3)</a>
-                                <a class="d link" id="d" href="skills.php#design">Design</a>
+							<div id="dropdown" class="dropdown-content drop_1">
+                                				<a class="a link" id="a" href="skills.php">HTML</a>
+                                				<a class="b link" id="b" href="skills.php#css">CSS</a>
+                                				<a class="c link" id="c" href="skills.php#animations">Animations (CSS 3)</a>
+                                				<a class="d link" id="d" href="skills.php#design">Design</a>
 							</div>
-				    </li>
-
-					
-					<li class="nav-item">
+					</div>
+				</li>
+				<li class="nav-item">
 			            <a title="Blog" class="nav-link" id="navlink" href="blog.php">Blog</a>
 			        </li>
 					<li class="nav-item">
