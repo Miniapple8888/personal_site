@@ -45,7 +45,9 @@ require "layouts/header.php";
 					<h3 class="post-title">Avis:</h3>
 					<p>
 					&emsp;Ce site web est en d&eaigu;v&eaigu;lopement actuellement. Je ne suis pas disponible pour des services pendant ce
-          temps. Vous pouvez me contactez au <span class="email">j.alfahad@gmail.com</span> si vous avez une question. 
+					temps. Vous pouvez me contactez au 
+					<a href="mailto:j.alfahad@gmail.com?subject=Question&body=J'ai une question &agrave propos de ton site web..." 
+					class="email">j.alfahad@gmail.com</a> si vous avez une question. 
 					</p>
 					<div class="warning-box">
 						&emsp;<h5>S'il vous pla&icirc;t noter</h5> <p>que la contenu sur mon site web peut &ecirc;tre pas compl&eaigu;tement

@@ -7,7 +7,8 @@ require 'layouts/header.php';
 			<div class="row main-row justify-content-center">
 				<div class="col-10 col-sm-10 col-lg-5">
 					<p>
-					You can use <span class="email">j.alfahad@gmail.com</span> to get ahold of me.
+					You can use <a href="mailto:j.alfahad@gmail.com?subject=Inquiry&body=I have a question regarding your website..." 
+					class="email">j.alfahad@gmail.com</a> to get ahold of me.
 					</p>
 				</div>
 				<div class="col-10 col-sm-10 col-lg-5">
