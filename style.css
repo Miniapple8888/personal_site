@@ -456,7 +456,7 @@ footer {
 .dropdown-content {
     border-top: solid 2px blue;
 	background-color: rgba(230,230,230,0.8);
-	display: none;
+	opacity: 0;
 }
 .dropdown-content a {
     color: black;
@@ -469,27 +469,27 @@ footer {
 	background-color: white;
 }
 .dropdown:hover .dropdown-content {
-	animation: showDropdown ease-in 0.5s forwards;
-		-webkit-animation: showDropdown ease-in 0.5s forwards;
+	animation: showDropdown ease-in 0.4s forwards;
+		-webkit-animation: showDropdown ease-in 0.4s forwards;
 } 
 @-webkit-keyframes showDropdown {
 	from {
-		display: none;
-		top: -50px;
+		opacity: 0;
+		left: -250px;
 	}
 	to {
-		display: block;
-		top: 0px;
+		opacity: 1;
+		left: 0px;
 	}
 } 
 @keyframes showDropdown {
 	from {
-		display: none;
-		top: -50px;
+		opacity: 0;
+		left: -250px;
 	}
 	to {
-		display: block;
-		top: 0px;
+		opacity: 1;
+		left: 0px;
 	}
 }
 .front {
