@@ -29,10 +29,10 @@
 					<div class="dropdown">
 						<button title="Skills" class="nav-link" onclick="showDropdown('dropdown-content')" onblur="hideDropdown('dropdown-content')" id="dropbtn">Skills</button>
 							<div id="dropdown" class="dropdown-content drop_1">
-                                				<a class="a link" id="a" href="skills.php">HTML</a>
-                                				<a class="b link" id="b" href="skills.php#css">CSS</a>
-                                				<a class="c link" id="c" href="skills.php#animations">Animations (CSS 3)</a>
-                                				<a class="d link" id="d" href="skills.php#design">Design</a>
+                                				<a class="a link" id="a" href="skills.php" onclick="location.reload()">HTML</a>
+                                				<a class="b link" id="b" href="skills.php#css" onclick="location.reload()">CSS</a>
+                                				<a class="c link" id="c" href="skills.php#animations" onclick="location.reload()">Animations (CSS 3)</a>
+                                				<a class="d link" id="d" href="skills.php#design" onclick="location.reload()">Design</a>
 							</div>
 					</div>
 				</li>
