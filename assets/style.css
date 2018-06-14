@@ -236,8 +236,8 @@ iframe {
 	.title > .title-interior {
     font-size: 60px;
 }
-	.title .subtitle {
-	font-size: 30px;
+	.title > .subtitle {
+	font-size: 20px;
 	}
 	#main-img {
 		height: 65%;
@@ -271,7 +271,7 @@ p {
     transform: rotate(90deg);
 }
 
-.title .subtitle {
+.title > .subtitle {
     color: black;
     font-size: 50px;
     border-top: black 1px solid;
