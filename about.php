@@ -5,12 +5,12 @@ require 'layouts/header.php';
 		<h2 class="content-divider">About Me</h2>
 		<div class="container-sm-pad">
 			<div class="row main-row justify-content-center">
-				<div class="col-10 col-sm-10 col-lg-6">
+				<div class="col-10 col-sm-10 col-lg-5">
 					<p>
 					A proud Canadian dude who makes websites for fun. Nothing much else cool about me.
 					</p>
 				</div>
-				<div class="col-10 col-sm-10 col-lg-4">
+				<div class="col-10 col-sm-10 col-lg-5">
 					<p>
 					<i>Coming Soon</i>
 					</p>

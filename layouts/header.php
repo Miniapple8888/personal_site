@@ -49,35 +49,35 @@
 			            <a title="Contact" class="nav-link" id="navlink" href="contact.php">Contact</a>
 			        </li>
 					<li class="nav-item">
-						<a title="French" class="nav-link" id="navlink" href="indexfr.html">Fran&ccedil;ais</a>
+						<a title="French" class="nav-link" id="navlink" href="indexfr.php">Fran&ccedil;ais</a>
 					</li>
 
 				    <script type="text/javascript">
 				    	$(function() {
-				    		var title = "<?php echo $title; ?>";
+				    		var url = window.location.pathname.replace('/personal_site/', '');
 				    		var selection = "";
 				    		var id = "navlink-current";
-				    		switch(title) {
-				    			case "J.A. - Skills":
+				    		switch(url) {
+				    			case "skills.php":
 						    		id = "dropbtn-current";
 						    		selection = "button[title='Skills']";
 						    		break;
-						    	case "J.A. - Blog":
+						    	case "blog.php":
 						    		selection = "a[title='Blog']";
 						    		break;
-						    	case "J.A. - Past Projects":
+						    	case "pp.php":
 						    		selection = "a[title='Past_Projects']";
 						    		break;
-						    	case "J.A. - About":
+						    	case "about.php":
 						    		selection = "a[title='About']";
 						    		break;
-						    	case "J.A. - Contact":
+						    	case "contact.php":
 						    		selection = "a[title='Contact']";
 						    		break;
-						    	case "J.A. - Fran&ccedil;ais":
+						    	case "indexfr.php":
 						    		selection = "a[title='French']";
 						    		break;
-						    	case "Jacob Alfahad":
+						    	case "index.php":
 						    		selection = "a[title='Home']";
 						    		break;
 				    		};

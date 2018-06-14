@@ -4,7 +4,7 @@ require 'layouts/header.php';
 ?>
 		<h2 class="content-divider">HTML</h2>
 		<div class="container-sm-pad">
-			<div class="row main-row justify-content-around">
+			<div class="row main-row justify-content-center">
 				<div class="col-sm-10 col-10 col-lg-6">
 					<p>
 					HTML (or <b>H</b>yper <b>T</b>ext <b>M</b>arkup <b>Language</b>) is the structure for all websites. HTML is not a programming language.
@@ -21,7 +21,7 @@ require 'layouts/header.php';
 		</div>
 		<h2 class="content-divider">CSS</h2>
 		<div class="container-sm-pad">
-			<div class="row main-row justify-content-around">
+			<div class="row main-row justify-content-center">
 				<div class="col-sm-10 col-10 col-lg-4">
 					<p>
 					CSS (or <b>C</b>ascading <b>S</b>tyle <b>S</b>heet) is used to design and (in more recent updates) animate HTML webpages <a href="skills.php" class="text-link">(see above)</a> 
@@ -56,7 +56,7 @@ require 'layouts/header.php';
 		</div>
 		<h2 class="content-divider">Animations (CSS 3.0)</h2>
 		<div class="container-sm-pad">
-			<div class="row main-row justify-content-around">
+			<div class="row main-row justify-content-center">
 				<div class="col-sm-10 col-10 col-lg-3">
 					<p>
 					<a href="#css" class="text-link">CSS (see above)</a> animations are used to add certain stylings over an interval of time in a webpage.

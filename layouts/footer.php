@@ -69,6 +69,9 @@
 				    		case 'skills.php':
 				    			selection = "a[title='HTML']";
 				    			break;
+				    		case 'indexfr.php':
+				    			selection = "a[title='footer_French']";
+				    			break;
 				    	}
 				    	
 				    }$(selection).attr("class", classes);
