@@ -16,7 +16,7 @@ require "layouts/header.php";
 					<h3 class="post-title">Un peu sur moi:</h3>
 					<br>
 					<p>
-					&emsp;All&ocirc;! Mon nom est Jacob est je suis une d&eaiguv&eaigu;lopeur et styliste web amateur! M&ecirc;me si
+					&emsp;All&ocirc;! Mon nom est Jacob est je suis une d&eaigu;v&eaigu;lopeur et styliste web amateur! M&ecirc;me si
           je n'ai pas beaucoup de projets, j'esp&egrave;re avoir plus de temps pendant l'&eaigu;t&eaigu; pour augmenter mes
           connaissances. Vous pouvez trouv&eaigu; mon premier projet au:
 					</p>
