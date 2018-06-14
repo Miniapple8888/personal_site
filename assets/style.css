@@ -517,11 +517,6 @@ footer {
 .front {
     z-index: 40;
 }
-#a, #b, #c, #d {
-    visibility: hidden;
-	opacity: 1;
-	display: block;
-}
 /*nav stuff*/
 #navbar-toggler-button {
     background-color: orange;
