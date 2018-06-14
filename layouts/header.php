@@ -33,9 +33,9 @@
                                 				<a class="b link" id="b" href="skills.php#css">CSS</a>
                                 				<a class="c link" id="c" href="skills.php#animations">Animations (CSS 3)</a>
                                 				<a class="d link" id="d" href="skills.php#design">Design</a>
+							</div>
 					</div>
 				</li>
-				</div>
 				<li class="nav-item">
 			            <a title="Blog" class="nav-link" id="navlink" href="blog.php">Blog</a>
 			        </li>
