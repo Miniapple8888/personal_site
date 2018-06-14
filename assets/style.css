@@ -445,33 +445,11 @@ footer {
 }
 /*global dropdown style*/
 .dropdown-content, .dropdown-content2, .dropdown-content3, .dropdown-content4 {
-    visibility: hidden;
     width: 300px;
-	position: absolute;
+    position: absolute;
 }
 .drop_1 {
     z-index: 50;
-}
-#dropbtn2, #dropbtn3, #dropbtn4 {
-    font-family: trebuchet;
-    width: 175px;
-}
-#dropbtn3, #dropbtn4 {
-    border-top: green 2px solid;
-}
-.dropdown-content3 a:hover {
-    background-color: #121d40;
-    color: white;
-}
-
-.dropdown-content a:hover {
-    background-color: #121d40;
-    color: white;
-}
-
-.dropdown-content2 a:hover {
-    background-color: #121d40;
-    color: white;
 }
 /* dropdown code*/
 /*LEVEL 01*/
@@ -524,6 +502,7 @@ footer {
 .dropdown-content {
     border-top: solid 2px blue;
 	background-color: lightgrey;
+	display: none;
 }
 .dropdown-content a {
     color: black;
