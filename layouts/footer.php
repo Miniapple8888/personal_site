@@ -34,7 +34,7 @@
 				$(function() {
 				    var classes = "foot-link-current";
 				    var selection = "";
-				    var url = window.location.pathname.replace('/personal_site/', '');
+				    var url = window.location.pathname.replace("/", "");
 				    var anchor = window.location.hash;
 				    if (anchor) {
 				    	switch(anchor) {
