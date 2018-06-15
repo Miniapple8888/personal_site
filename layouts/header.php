@@ -54,10 +54,13 @@
 
 				    <script type="text/javascript">
 				    	$(function() {
-				    		var url = window.location.pathname.replace('/personal_site/', '');
+				    		var url = window.location.pathname.replace("/", "");
 				    		var selection = "";
 				    		var id = "navlink-current";
 				    		switch(url) {
+				    		    case "":
+                                   selection = "a[title='Home']";
+                                   break;
 				    			case "skills.php":
 						    		id = "dropbtn-current";
 						    		selection = "button[title='Skills']";

@@ -32,7 +32,8 @@ require 'layouts/header.php';
 					<br>
 					That's all for now, and good luck in whatever you do!
 					<br>
-					As always, do not hesitate to contact me at <span class="email">j.alfahad@gmail.com</span> if you have any inquiries or just feedback for the website!
+					As always, do not hesitate to contact me at <a href="mailto:j.alfahad@gmail.com?subject=Inquiry&body=I have a question regarding your website..." 
+					class="email">j.alfahad@gmail.com</a> if you have any inquiries or just feedback for the website!
 					</p>
 				</div>
 				<div class="col-lg-2 col-sm-9 col-10">
@@ -64,8 +65,6 @@ require 'layouts/header.php';
 					<br>
 					I use Bootstrap a lot since it's super responsive and easy to use! Thi website actually uses bootstrap!
 					<br>
-					Again, do not hesitate to contact me at <span class="email">j.alfahad@gmail.com</span> if you have any inquiries or just feedback for the website!
-					</p>
 				</div>
 				<div class="col-lg-2 col-sm-9 col-10">
 					<!--<img class="img-fluid" alt="" src="assets/?" />-->
@@ -86,9 +85,6 @@ require 'layouts/header.php';
 					posts to keep whatever small number of people might see this updated! Currently, I am still working on most pages of the site, however the
 					home and blog pages work (obviously). In future blogs, I will be talking about my experiences as an amateur web designer/developper, and 
 					perhaps tips & tricks, good online sources, etc...
-					<br>
-					Again, do not hesitate to contact me at <span class="email">j.alfahad@gmail.com</span> if you have any inquiries or just feedback for the website!
-					</p>
 				</div>
 				<div class="col-lg-3 col-sm-9 col-10">
 					<!--<img class="img-fluid" alt="" src="assets/?" />-->

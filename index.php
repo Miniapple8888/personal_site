@@ -44,7 +44,8 @@ require "layouts/header.php";
 					<h3 class="post-title">Notice:</h3>
 					<p>
 					&emsp;This website is currently being updated regularly. I am not available for services as of now. You can contact me at 
-					<span class="email">j.alfahad@gmail.com</span> if you have a question or wish to inquire about this website or my services. 
+					<a href="mailto:j.alfahad@gmail.com?subject=Inquiry&body=I have a question regarding your website..." 
+					class="email">j.alfahad@gmail.com</a> if you have a question or wish to inquire about this website or my services. 
 					</p>
 					<div class="warning-box">
 						&emsp;<h5>Please note</h5> <p>that some content on my site may not be properly formatted or 100% finished. Due to this, there may be broken 
