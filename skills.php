@@ -7,7 +7,7 @@ require 'layouts/header.php';
 			<div class="row main-row justify-content-center">
 				<div class="col-sm-10 col-10 col-lg-6">
 					<p>
-					HTML (or <b>H</b>yper <b>T</b>ext <b>M</b>arkup <b>Language</b>) is the structure for all websites. HTML is not a programming language.
+					HTML (or <b>H</b>yper <b>T</b>ext <b>M</b>arkup <b>L</b>anguage) is the structure for all websites. HTML is not a programming language.
 					HTML also works very closely in conjuction with <a href="#css" class="text-link">CSS (see below)</a>, to create webpages, as well as JS (javascript). 
 					</p>
 				</div>
