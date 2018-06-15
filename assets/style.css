@@ -127,6 +127,11 @@ iframe {
 	font-weight: 500;
 	font-family: impact;
 }
+@media only screen and (max-width: 400px) {
+    .content-divider {
+        font-size: 50px;
+    }
+}
 .email {
 	font-weight: 500;
 	font-style: italic;
@@ -377,9 +382,9 @@ footer {
 }
 
     .foot-link:hover {
-        color: orange;
+        background-color: #efefef;
         text-decoration: none;
-		border-bottom: none;
+		color: black;
     }
 .foot-link-current {
 	color: orange;
@@ -391,9 +396,9 @@ footer {
 	font-size: 14px;
 }
 	.foot-link-current:hover {
+		cursor: pointer;
 		color: orange;
 		text-decoration: none;
-		border-bottom: none;
 	}
 .foot-subt {
     font-weight: 600;
