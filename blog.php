@@ -1,5 +1,6 @@
 <?php
 $title = "J.A. - Blog";
+require 'core/init.php';
 require 'layouts/header.php';
 ?>
 		<h2 class="content-divider">Posts</h2>

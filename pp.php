@@ -1,5 +1,6 @@
 <?php
 $title = "J.A. - Past Projects";
+require 'core/init.php';
 require 'layouts/header.php';
 ?>
 		<h2 class="content-divider">Past Projects</h2>
