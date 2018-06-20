@@ -1,5 +1,6 @@
 <?php
 $title = "J.A. - Skills";
+require 'core/init.php';
 require 'layouts/header.php';
 ?>
 		<h2 class="content-divider">HTML</h2>

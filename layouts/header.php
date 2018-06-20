@@ -51,6 +51,11 @@
 					<li class="nav-item">
 						<a title="French" class="nav-link" id="navlink" href="indexfr.php">Fran&ccedil;ais</a>
 					</li>
+					<?php if (isset($_SESSION["user"])): ?>
+						<li class="nav-item">
+							<a href="log_out.php" class="nav-link" id="navlink">Log out</a>
+						</li>
+					<?php endif; ?>
 
 				    <script type="text/javascript">
 				    	$(function() {
@@ -88,3 +93,7 @@
 				    	});
 				    				</script>
 	    </nav>
+<?php if (Session::exist('flash')): ?>
+	<p><?php echo Session::get('flash'); ?></p>
+	<?php Session::delete('flash'); ?>					
+<?php endif; ?>
