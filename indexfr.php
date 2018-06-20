@@ -1,4 +1,5 @@
 <?php
+require 'core/init.php';
 $title = "Jacob Alfahad";
 require "layouts/header.php";
 ?>

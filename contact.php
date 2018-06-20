@@ -1,5 +1,6 @@
 <?php
 $title = "J.A. - Contact";
+require 'core/init.php';
 require 'layouts/header.php';
 ?>
 		<h2 class="content-divider">Contact Me</h2>
