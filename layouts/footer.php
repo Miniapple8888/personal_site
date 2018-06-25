@@ -32,49 +32,7 @@
 			</div>
 			<script type="text/javascript">
 				$(function() {
-				    var classes = "foot-link-current";
-				    var selection = "";
-				    var url = window.location.pathname.replace("/", "");
-				    var anchor = window.location.hash;
-				    if (anchor) {
-				    	switch(anchor) {
-				    		case '#css':
-				    			selection = "a[title='CSS']";
-				    			break;
-				    		case '#animations':
-				    			selection = "a[title='Animations']";
-				    			break;
-				    		case '#design':
-				    			selection = "a[title='Design']";
-				    			break;
-				    	}
-				    } else {
-				    	switch(url) {
-				    		case 'index.php':
-				    		case '':
-				    			selection = "a[title='footer_Home']";
-				    			break;
-				    		case 'about.php':
-				    			selection = "a[title='footer_About']";
-				    			break;
-				    		case 'pp.php':
-				    			selection = "a[title='footer_Past_Projects']";
-				    			break;
-				    		case 'blog.php':
-				    			selection = "a[title='footer_Blog']";
-				    			break;
-				    		case 'contact.php':
-				    			selection = "a[title='footer_Contact']";
-				    			break;
-				    		case 'skills.php':
-				    			selection = "a[title='HTML']";
-				    			break;
-				    		case 'indexfr.php':
-				    			selection = "a[title='footer_French']";
-				    			break;
-				    	}
-				    	
-				    }$(selection).attr("class", classes);
+				    active_links("navlink-current", true);
 				});
 			</script>
 		</div>
