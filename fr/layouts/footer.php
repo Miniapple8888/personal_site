@@ -2,13 +2,13 @@
 		<div class="row row-foot">
 			<div class="foot-sect col-12 col-lg-3 col-md-6 col-sm-12">
 				<div class="foot-div">
-					<h5 class="foot-subt">Start</h5>
+					<h5 class="foot-subt">Départ</h5>
 				</div>
-				<a class="foot-link" href="index.php" title="footer_Home">Home</a>
+				<a class="foot-link" href="index.php" title="footer_Home">Accueil</a>
 			</div>
 			<div class="foot-sect col-12 col-lg-3 col-md-6 col-sm-12">
 				<div class="foot-div">
-					<h5 class="foot-subt">Skills</h5>
+					<h5 class="foot-subt">Compétences</h5>
 				</div>
 				<a class="foot-link" href="skills.php" title="HTML" onclick="location.reload()">HTML</a>
 				<a class="foot-link" href="skills.php#css" title="CSS" onclick="location.reload()">CSS</a>
@@ -17,18 +17,18 @@
 			</div>
 			<div class="foot-sect col-12 col-lg-3 col-md-6 col-sm-12">
 				<div class="foot-div">
-					<h5 class="foot-subt">About me</h5>
+					<h5 class="foot-subt">À propos de moi</h5>
 				</div>
-				<a class="foot-link" href="about.php" title="footer_About">About</a>
-				<a class="foot-link" href="pp.php" title="footer_Past_Projects">Past Projects</a>
+				<a class="foot-link" href="about.php" title="footer_About">À propos</a>
+				<a class="foot-link" href="pp.php" title="footer_Past_Projects">Anciens projets</a>
 				<a class="foot-link" href="blog.php" title="footer_Blog">Blog</a>
 			</div>
 			<div class="foot-sect col-12 col-lg-3 col-md-6 col-sm-12">
 				<div class="foot-div">
-					<h5 class="foot-subt">Other</h5>
+					<h5 class="foot-subt">Autre</h5>
 				</div><!-- Contact Me -->
-				<a class="foot-link" href="contact.php" title="footer_Contact">Contact Me</a>
-				<a class="foot-link" href="fr/index.php" title="footer_French">Fran&ccedil;ais</a>
+				<a class="foot-link" href="contact.php" title="footer_Contact">Contactez moi</a>
+				<a class="foot-link" href="../index.php" title="footer_French">English</a>
 			</div>
 			<script type="text/javascript">
 				$(function() {
